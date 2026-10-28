@@ -22,7 +22,7 @@ Try, Create, Have Fun
 ![](https://github-contributor-stats.vercel.app/api?username=GariNikhil&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/https://buymeacoffee.com/garinikhil) 
+ <a href="https://www.buymeacoffee.com/garinikhil"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=garinikhil&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 
 ---
 [![](https://komarev.com/ghpvc/?username=GariNikhil&icon=0&color=0)](https://visitcount.itsvg.in)
