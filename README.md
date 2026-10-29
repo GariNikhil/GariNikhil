@@ -46,9 +46,7 @@
 
 ## 💰 You can help me by Donating
 
-<a href="https://www.buymeacoffee.com/garinikhil">
-<img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=garinikhil&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" />
-</a>
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/garinikhil)
 
 ---
 
