@@ -1,98 +1,152 @@
-
-import os
-import requests
-from datetime import datetime, timezone
+import json
+import urllib.request
+from pathlib import Path
 
 USERNAME = "GariNikhil"
-README_FILE = "README.md"
+PROFILE_REPO = "GariNikhil"
 
-START = "<!-- PROJECTS_START -->"
-END = "<!-- PROJECTS_END -->"
+README_PATH = Path(__file__).resolve().parent.parent / "README.md"
 
-def get_repositories():
-    url = f"https://api.github.com/users/{USERNAME}/repos"
+START_MARKER = "<!-- PROJECTS_START -->"
+END_MARKER = "<!-- PROJECTS_END -->"
 
-    repos = []
+API_URL = (
+    f"https://api.github.com/users/{USERNAME}/repos"
+    "?per_page=100&type=owner&sort=updated"
+)
+
+
+def fetch_repositories():
+    repositories = []
     page = 1
 
     while True:
-        response = requests.get(
-            url,
-            params={
-                "sort": "updated",
-                "per_page": 100,
-                "page": page,
-                "type": "owner"
-            },
-            timeout=30
-        )
-        response.raise_for_status()
+        url = f"{API_URL}&page={page}"
 
-        data = response.json()
+        request = urllib.request.Request(
+            url,
+            headers={
+                "Accept": "application/vnd.github+json",
+                "User-Agent": "GariNikhil-Profile-README-Updater",
+            },
+        )
+
+        with urllib.request.urlopen(request, timeout=20) as response:
+            data = json.loads(response.read().decode("utf-8"))
 
         if not data:
             break
 
-        repos.extend(data)
+        repositories.extend(data)
+
+        if len(data) < 100:
+            break
+
         page += 1
 
-    return [
-        repo for repo in repos
-        if not repo["fork"] and not repo["archived"]
+    return repositories
+
+
+def select_top_repositories(repositories):
+    eligible = [
+        repo for repo in repositories
+        if not repo["fork"]
+        and not repo["archived"]
+        and repo["name"].lower() != PROFILE_REPO.lower()
     ]
 
-def generate_projects(repos):
+    eligible.sort(
+        key=lambda repo: (
+            repo.get("stargazers_count", 0),
+            repo.get("pushed_at") or "",
+        ),
+        reverse=True,
+    )
+
+    return eligible[:5]
+
+
+def clean_markdown(value):
+    if not value:
+        return "—"
+
+    return (
+        str(value)
+        .replace("|", "\\|")
+        .replace("\n", " ")
+        .replace("\r", " ")
+    )
+
+
+def generate_table(repositories):
     lines = [
-        "| Project | Description | Language | Stars |",
-        "|---|---|---|---|"
+        "| # | Repository | Description | Language | Stars |",
+        "|:--:|:---|:---|:---:|:--:|",
     ]
 
-    for repo in repos:
+    for index, repo in enumerate(repositories, start=1):
         name = repo["name"]
         url = repo["html_url"]
-        description = (
-            repo.get("description") or "No description provided."
-        ).replace("|", " ").replace("\n", " ")
-
-        language = repo.get("language") or "N/A"
-        stars = repo["stargazers_count"]
+        description = clean_markdown(repo.get("description"))
+        language = clean_markdown(repo.get("language"))
+        stars = repo.get("stargazers_count", 0)
 
         lines.append(
-            f"| [{name}]({url}) | {description} | "
-            f"{language} | ⭐ {stars} |"
+            f"| {index} | "
+            f"[{name}]({url}) | "
+            f"{description} | "
+            f"{language} | "
+            f"⭐ {stars} |"
         )
 
-    if not repos:
-        lines.append("| No projects yet | | | |")
+    if not repositories:
+        lines.append("| — | No public repositories found | — | — | — |")
 
     return "\n".join(lines)
 
+
 def update_readme():
-    with open(README_FILE, "r", encoding="utf-8") as file:
-        content = file.read()
+    if not README_PATH.exists():
+        raise FileNotFoundError(f"README not found: {README_PATH}")
 
-    if START not in content or END not in content:
-        raise ValueError("Project markers missing from README.md")
+    readme = README_PATH.read_text(encoding="utf-8")
 
-    repos = get_repositories()
-    projects = generate_projects(repos)
+    if readme.count(START_MARKER) != 1:
+        raise ValueError("README must contain exactly one PROJECTS_START marker.")
 
-    before, remainder = content.split(START, 1)
-    _, after = remainder.split(END, 1)
+    if readme.count(END_MARKER) != 1:
+        raise ValueError("README must contain exactly one PROJECTS_END marker.")
 
-    updated = (
-        before + START + "\n" +
-        projects + "\n" +
-        END + after
+    start = readme.index(START_MARKER) + len(START_MARKER)
+    end = readme.index(END_MARKER)
+
+    if start >= end:
+        raise ValueError("README project markers are in the wrong order.")
+
+    repositories = fetch_repositories()
+    top_five = select_top_repositories(repositories)
+    table = generate_table(top_five)
+
+    updated_readme = (
+        readme[:start]
+        + "\n\n"
+        + table
+        + "\n\n"
+        + readme[end:]
     )
 
-    if updated != content:
-        with open(README_FILE, "w", encoding="utf-8") as file:
-            file.write(updated)
-
-        print(f"Updated {len(repos)} repositories.")
+    if updated_readme != readme:
+        README_PATH.write_text(updated_readme, encoding="utf-8")
+        print("README updated successfully.")
     else:
         print("README is already up to date.")
 
+    print(f"Repositories displayed: {len(top_five)}")
+
+
 if __name__ == "__main__":
-    update_readme()
+    try:
+        update_readme()
+    except Exception as error:
+        print(f"Update failed: {error}")
+        raise
