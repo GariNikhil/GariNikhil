@@ -30,22 +30,19 @@
 - ☕ Powered by coffee and curiosity.
 
 ---
+## 🚀 Top 5 Repositories
 
-## 🚀 Featured Projects
-
-<!-- PROJECTS_START -->
-
-| Project | Description | Technology |
-|:---|:---|:---|
-| 🌦️ [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | A Rainmeter skin for desktop customization | Rainmeter |
-| 🤖 [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI chatbot | Python |
-| 🎨 [PortfolioX](https://github.com/GariNikhil/PortfolioX) | Personal portfolio manager (offline) | Web |
-
-<!-- PROJECTS_END -->
+| # | Project | Description |
+|:--:|:---|:---|
+| 1 | 🌦️ [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | Rainmeter desktop customization |
+| 2 | 🤖 [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI chatbot |
+| 3 | 🎨 [PortfolioX](https://github.com/GariNikhil/PortfolioX) | Offline personal portfolio manager |
+| 4 | 🔧 [Repository 4](YOUR_REPOSITORY_LINK) | Add description |
+| 5 | 💻 [Repository 5](YOUR_REPOSITORY_LINK) | Add description |
 
 <div align="center">
 
-[![Explore Repositories](https://img.shields.io/badge/Explore_All_Projects-0B1220?style=for-the-badge&logo=github&logoColor=60A5FA)](https://github.com/GariNikhil?tab=repositories)
+[![Explore All Projects](https://img.shields.io/badge/Explore_All_Projects-0B1220?style=for-the-badge&logo=github&logoColor=60A5FA)](https://github.com/GariNikhil?tab=repositories)
 
 </div>
 
