@@ -1,69 +1,147 @@
-# 👋 Hey, I'm Nikhil!
 
-### Developer | Explorer | Builder
+<!-- ===================================================== -->
+<!-- GITHUB PROFILE README — GariNikhil                     -->
+<!-- Theme: Midnight Developer                              -->
+<!-- ===================================================== -->
 
-> 🎯 Try, Create, Have Fun.
+<div align="center">
 
-I'm passionate about experimenting with technology, building useful applications, and exploring creative ideas.
+# 👋 Hey, I'm Nikhil
 
-- 🔭 Building desktop applications and personal projects
-- 🌱 Exploring Python, AI, automation and software development
-- 🖥️ Interested in offline-first applications and desktop customization
-- ⚡ Creator of **TRANSSKIN**, a Rainmeter customization project
-- ☕ Powered by coffee and curiosity!
+### Try · Create · Have Fun
+
+**Developer | Experimenter | Builder**
+
+*Turning ideas into practical projects, one experiment at a time.*
+
+[![GitHub](https://img.shields.io/badge/GitHub-GariNikhil-0B1220?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GariNikhil)
+[![Instagram](https://img.shields.io/badge/Instagram-Follow-0B1220?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/garinikhil9)
+
+</div>
+
+---
+
+## 💫 About Me
+
+- 🔭 Always experimenting and building fun side projects.
+- 🌱 Currently exploring new technologies and development tools.
+- 💻 Interested in Python, web development, automation and offline applications.
+- ⚡ Created **TRANSSKIN**, a Rainmeter skin for desktop customization.
+- ☕ Powered by coffee and curiosity.
 
 ---
 
 ## 🚀 Featured Projects
 
 <!-- PROJECTS_START -->
+
+| Project | Description | Technology |
+|:---|:---|:---|
+| 🌦️ [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | A Rainmeter skin for desktop customization | Rainmeter |
+| 🤖 [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI chatbot | Python |
+| 🎨 [PortfolioX](https://github.com/GariNikhil/PortfolioX) | Personal portfolio manager (offline) | Web |
+
 <!-- PROJECTS_END -->
+
+<div align="center">
+
+[![Explore Repositories](https://img.shields.io/badge/Explore_All_Projects-0B1220?style=for-the-badge&logo=github&logoColor=60A5FA)](https://github.com/GariNikhil?tab=repositories)
+
+</div>
+
+---
 
 ## 🛠️ Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-0B1220?style=for-the-badge&logo=python&logoColor=3776AB)
+![JavaScript](https://img.shields.io/badge/JavaScript-0B1220?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-0B1220?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-0B1220?style=for-the-badge&logo=css3&logoColor=1572B6)
+![C Sharp](https://img.shields.io/badge/C%23-0B1220?style=for-the-badge&logo=csharp&logoColor=512BD4)
+![Git](https://img.shields.io/badge/Git-0B1220?style=for-the-badge&logo=git&logoColor=F05032)
+![GitHub](https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=FFFFFF)
+
+</div>
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Analytics
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=GariNikhil&show_icons=true&theme=github_dark&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GariNikhil&layout=compact&theme=github_dark&hide_border=true" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=GariNikhil&theme=github-dark-blue&hide_border=true" />
-</p>
+<img width="49%" src="https://github-readme-stats.shion.dev/api?username=GariNikhil&theme=dark&hide_border=true&include_all_commits=false&count_private=false&show_icons=true" alt="GitHub Stats" />
+
+<img width="49%" src="https://streak-stats.demolab.com/?user=GariNikhil&theme=dark&hide_border=true" alt="GitHub Streak" />
+
+<img width="49%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=GariNikhil&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
+
+</div>
 
 ---
 
-## 🐍 Contribution Activity
+## 🏆 GitHub Achievements
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/GariNikhil/GariNikhil/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" />
-</p>
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=GariNikhil&theme=darkhub&no-frame=true&no-bg=true&margin-w=8" alt="GitHub Trophies" />
+
+</div>
+
+---
+
+## 💡 Developer Inspiration
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Developer Quote" />
+
+</div>
+
+---
+
+## 🌟 Contribution Highlights
+
+<div align="center">
+
+<img src="https://github-contributor-stats.vercel.app/api?username=GariNikhil&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repositories" />
+
+</div>
 
 ---
 
 ## 🌐 Connect With Me
 
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/garinikhil9)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GariNikhil)
+<div align="center">
 
+[![Instagram](https://img.shields.io/badge/Instagram-0B1220?style=for-the-badge&logo=instagram&logoColor=E4405F)](https://instagram.com/garinikhil9)
+[![GitHub](https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/GariNikhil)
+
+</div>
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=GariNikhil&style=flat-square&color=blue" alt="Profile Views" />
-</p>
+## ☕ Support My Work
 
-<p align="center">
-  <i>Always learning. Always building. Always exploring.</i>
-</p>
+If you enjoy my projects or find them useful, you can support my work!
+
+<div align="center">
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-0B1220?style=for-the-badge&logo=buy-me-a-coffee&logoColor=FFDD00)](https://buymeacoffee.com/garinikhil)
+
+</div>
+
+---
+
+<div align="center">
+
+### Thanks for visiting! 👋
+
+![Profile Views](https://komarev.com/ghpvc/?username=GariNikhil&label=PROFILE%20VIEWS&color=2563EB&style=flat-square)
+
+<sub>Try something new. Build something useful. Keep learning.</sub>
+
+</div>
+
+<!-- End of GariNikhil Profile README -->
