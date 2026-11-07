@@ -1,0 +1,28 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 4776203..092f0cd 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -32,13 +32,16 @@[m
+ ---[m
+ ## 🚀 Top 5 Repositories[m
+ [m
+[31m-| # | Project | Description |[m
+[31m-|:--:|:---|:---|[m
+[31m-| 1 | 🌦️ [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | Rainmeter desktop customization |[m
+[31m-| 2 | 🤖 [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI chatbot |[m
+[31m-| 3 | 🎨 [PortfolioX](https://github.com/GariNikhil/PortfolioX) | Offline personal portfolio manager |[m
+[31m-| 4 | 🔧 [Repository 4](YOUR_REPOSITORY_LINK) | Add description |[m
+[31m-| 5 | 💻 [Repository 5](YOUR_REPOSITORY_LINK) | Add description |[m
+[32m+[m[32m<!-- PROJECTS_START -->[m
+[32m+[m
+[32m+[m[32m| # | Repository | Description | Language | Stars |[m
+[32m+[m[32m|:--:|:---|:---|:---:|:--:|[m
+[32m+[m[32m| 1 | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | TRANSSKIN is rainmeter skin | Python | ⭐ 1 |[m
+[32m+[m[32m| 2 | [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI-Chatbot | JavaScript | ⭐ 1 |[m
+[32m+[m[32m| 3 | [rubik-s-cube](https://github.com/GariNikhil/rubik-s-cube) | — | Python | ⭐ 0 |[m
+[32m+[m[32m| 4 | [PortfolioX](https://github.com/GariNikhil/PortfolioX) | — | Python | ⭐ 0 |[m
+[32m+[m
+[32m+[m[32m<!-- PROJECTS_END -->[m
+ [m
+ <div align="center">[m
+ [m
