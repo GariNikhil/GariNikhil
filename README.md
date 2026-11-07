@@ -34,12 +34,12 @@
 
 <!-- PROJECTS_START -->
 
-|   #   | Repository                                                 | Description                 |  Language  | Stars |
-| :---: | :--------------------------------------------------------- | :-------------------------- | :--------: | :---: |
-|   1   | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN)       | TRANSSKIN is rainmeter skin |   Python   |  ⭐ 1  |
-|   2   | [Chatbot](https://github.com/GariNikhil/Chatbot)           | Offline AI-Chatbot          | JavaScript |  ⭐ 1  |
-|   3   | [rubik-s-cube](https://github.com/GariNikhil/rubik-s-cube) | —                           |   Python   |  ⭐ 0  |
-|   4   | [PortfolioX](https://github.com/GariNikhil/PortfolioX)     | —                           |   Python   |  ⭐ 0  |
+| # | Repository | Description | Language | Stars |
+|:--:|:---|:---|:---:|:--:|
+| 1 | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | TRANSSKIN is rainmeter skin | Python | ⭐ 1 |
+| 2 | [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI-Chatbot | JavaScript | ⭐ 1 |
+| 3 | [rubik-s-cube](https://github.com/GariNikhil/rubik-s-cube) | An offline-first, interactive Rubik’s Cube learning and solving platform featuring 3D visualization, step-by-step solving methods, speedcubing practice, and Sudoku-inspired mathematical exploration. | Python | ⭐ 0 |
+| 4 | [PortfolioX](https://github.com/GariNikhil/PortfolioX) | — | Python | ⭐ 0 |
 
 <!-- PROJECTS_END -->
 
