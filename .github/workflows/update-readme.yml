@@ -3,21 +3,16 @@ name: Update GitHub Profile README
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # Every Monday at 08:30 AM India time (03:00 UTC)
+    - cron: "0 3 * * 1"
 
   workflow_dispatch:
-
-  push:
-    branches:
-      - main
-    paths:
-      - ".github/scripts/update_readme.py"
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,17 +24,19 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Update README
+      - name: Update Top 5 Repositories
         run: python .github/scripts/update_readme.py
 
-      - name: Commit changes
+      - name: Commit README changes
         run: |
+          if git diff --quiet README.md; then
+            echo "README is already up to date."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add README.md
-
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: update profile README"
-            git push
-          fi
+          git commit -m "chore: update top repositories"
+          git push

@@ -5,7 +5,7 @@ from pathlib import Path
 USERNAME = "GariNikhil"
 PROFILE_REPO = "GariNikhil"
 
-README_PATH = Path(__file__).resolve().parent.parent / "README.md"
+README_PATH = Path(__file__).resolve().parents[2] / "README.md"
 
 START_MARKER = "<!-- PROJECTS_START -->"
 END_MARKER = "<!-- PROJECTS_END -->"
@@ -49,7 +49,8 @@ def fetch_repositories():
 
 def select_top_repositories(repositories):
     eligible = [
-        repo for repo in repositories
+        repo
+        for repo in repositories
         if not repo["fork"]
         and not repo["archived"]
         and repo["name"].lower() != PROFILE_REPO.lower()
@@ -70,12 +71,7 @@ def clean_markdown(value):
     if not value:
         return "—"
 
-    return (
-        str(value)
-        .replace("|", "\\|")
-        .replace("\n", " ")
-        .replace("\r", " ")
-    )
+    return str(value).replace("|", "\\|").replace("\n", " ").replace("\r", " ")
 
 
 def generate_table(repositories):
@@ -92,11 +88,7 @@ def generate_table(repositories):
         stars = repo.get("stargazers_count", 0)
 
         lines.append(
-            f"| {index} | "
-            f"[{name}]({url}) | "
-            f"{description} | "
-            f"{language} | "
-            f"⭐ {stars} |"
+            f"| {index} | [{name}]({url}) | {description} | {language} | ⭐ {stars} |"
         )
 
     if not repositories:
@@ -127,13 +119,7 @@ def update_readme():
     top_five = select_top_repositories(repositories)
     table = generate_table(top_five)
 
-    updated_readme = (
-        readme[:start]
-        + "\n\n"
-        + table
-        + "\n\n"
-        + readme[end:]
-    )
+    updated_readme = readme[:start] + "\n\n" + table + "\n\n" + readme[end:]
 
     if updated_readme != readme:
         README_PATH.write_text(updated_readme, encoding="utf-8")

@@ -32,13 +32,16 @@
 ---
 ## 🚀 Top 5 Repositories
 
-| # | Project | Description |
-|:--:|:---|:---|
-| 1 | 🌦️ [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | Rainmeter desktop customization |
-| 2 | 🤖 [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI chatbot |
-| 3 | 🎨 [PortfolioX](https://github.com/GariNikhil/PortfolioX) | Offline personal portfolio manager |
-| 4 | 🔧 [Repository 4](YOUR_REPOSITORY_LINK) | Add description |
-| 5 | 💻 [Repository 5](YOUR_REPOSITORY_LINK) | Add description |
+<!-- PROJECTS_START -->
+
+| # | Repository | Description | Language | Stars |
+|:--:|:---|:---|:---:|:--:|
+| 1 | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | TRANSSKIN is rainmeter skin | Python | ⭐ 1 |
+| 2 | [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI-Chatbot | JavaScript | ⭐ 1 |
+| 3 | [rubik-s-cube](https://github.com/GariNikhil/rubik-s-cube) | — | Python | ⭐ 0 |
+| 4 | [PortfolioX](https://github.com/GariNikhil/PortfolioX) | — | Python | ⭐ 0 |
+
+<!-- PROJECTS_END -->
 
 <div align="center">
 
