@@ -34,12 +34,12 @@
 
 <!-- PROJECTS_START -->
 
-| # | Repository | Description | Language | Stars |
-|:--:|:---|:---|:---:|:--:|
-| 1 | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | TRANSSKIN is rainmeter skin | Python | ⭐ 1 |
-| 2 | [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI-Chatbot | JavaScript | ⭐ 1 |
-| 3 | [rubik-s-cube](https://github.com/GariNikhil/rubik-s-cube) | — | Python | ⭐ 0 |
-| 4 | [PortfolioX](https://github.com/GariNikhil/PortfolioX) | — | Python | ⭐ 0 |
+|   #   | Repository                                                 | Description                 |  Language  | Stars |
+| :---: | :--------------------------------------------------------- | :-------------------------- | :--------: | :---: |
+|   1   | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN)       | TRANSSKIN is rainmeter skin |   Python   |  ⭐ 1  |
+|   2   | [Chatbot](https://github.com/GariNikhil/Chatbot)           | Offline AI-Chatbot          | JavaScript |  ⭐ 1  |
+|   3   | [rubik-s-cube](https://github.com/GariNikhil/rubik-s-cube) | —                           |   Python   |  ⭐ 0  |
+|   4   | [PortfolioX](https://github.com/GariNikhil/PortfolioX)     | —                           |   Python   |  ⭐ 0  |
 
 <!-- PROJECTS_END -->
 
@@ -101,11 +101,12 @@
 
 ---
 
-## 🌟 Contribution Highlights
+
+## 🐍 Contribution Activity
 
 <div align="center">
 
-<img src="https://github-contributor-stats.vercel.app/api?username=GariNikhil&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repositories" />
+![GitHub Contribution Snake](https://raw.githubusercontent.com/GariNikhil/GariNikhil/output/github-contribution-grid-snake.svg)
 
 </div>
 
