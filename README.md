@@ -36,10 +36,10 @@
 
 | # | Repository | Description | Language | Stars |
 |:--:|:---|:---|:---:|:--:|
-| 1 | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | TRANSSKIN is rainmeter skin | Python | ⭐ 1 |
-| 2 | [Chatbot](https://github.com/GariNikhil/Chatbot) | Offline AI-Chatbot | JavaScript | ⭐ 1 |
+| 1 | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | A customizable Rainmeter desktop skin collection featuring real-time system monitoring, elegant widgets, network statistics, Hindu Panchang, and personalized desktop experiences. | Python | ⭐ 1 |
+| 2 | [Chatbot](https://github.com/GariNikhil/Chatbot) | An interactive AI-powered chatbot application designed to enable natural conversations, answer questions, assist users, and explore intelligent conversational experiences through a clean and user-friendly interface. | JavaScript | ⭐ 1 |
 | 3 | [rubik-s-cube](https://github.com/GariNikhil/rubik-s-cube) | An offline-first, interactive Rubik’s Cube learning and solving platform featuring 3D visualization, step-by-step solving methods, speedcubing practice, and Sudoku-inspired mathematical exploration. | Python | ⭐ 0 |
-| 4 | [PortfolioX](https://github.com/GariNikhil/PortfolioX) | — | Python | ⭐ 0 |
+| 4 | [PortfolioX](https://github.com/GariNikhil/PortfolioX) | A modern, responsive personal portfolio platform showcasing projects, skills, experience, and achievements through a clean design, interactive elements, and a professional digital identity. | Python | ⭐ 0 |
 
 <!-- PROJECTS_END -->
 
