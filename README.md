@@ -34,12 +34,12 @@
 
 <!-- PROJECTS_START -->
 
-| # | Repository | Description | Language | Stars |
-|:--:|:---|:---|:---:|:--:|
-| 1 | [Rubik-s-Cube](https://github.com/GariNikhil/Rubik-s-Cube) | An offline-first, interactive Rubik’s Cube learning and solving platform featur… | C# | ⭐ 1 |
-| 2 | [PortfolioX](https://github.com/GariNikhil/PortfolioX) | A modern, responsive personal portfolio platform showcasing projects, skills, e… | Python | ⭐ 1 |
-| 3 | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | A customizable Rainmeter desktop skin collection featuring real-time system mon… | Python | ⭐ 1 |
-| 4 | [Chatbot](https://github.com/GariNikhil/Chatbot) | An interactive AI-powered chatbot application designed to enable natural conver… | JavaScript | ⭐ 1 |
+|   #   | Repository                                                 | Description                 |  Language  | Stars |
+| :---: | :--------------------------------------------------------- | :-------------------------- | :--------: | :---: |
+|   1   | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN)       | TRANSSKIN is rainmeter skin |   Python   |  ⭐ 1  |
+|   2   | [Chatbot](https://github.com/GariNikhil/Chatbot)           | Offline AI-Chatbot          | JavaScript |  ⭐ 1  |
+|   3   | [rubik-s-cube](https://github.com/GariNikhil/rubik-s-cube) | —                           |   Python   |  ⭐ 0  |
+|   4   | [PortfolioX](https://github.com/GariNikhil/PortfolioX)     | —                           |   Python   |  ⭐ 0  |
 
 <!-- PROJECTS_END -->
 
