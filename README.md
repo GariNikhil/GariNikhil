@@ -34,12 +34,12 @@
 
 <!-- PROJECTS_START -->
 
-|   #   | Repository                                                 | Description                 |  Language  | Stars |
-| :---: | :--------------------------------------------------------- | :-------------------------- | :--------: | :---: |
-|   1   | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN)       | TRANSSKIN is rainmeter skin |   Python   |  ⭐ 1  |
-|   2   | [Chatbot](https://github.com/GariNikhil/Chatbot)           | Offline AI-Chatbot          | JavaScript |  ⭐ 1  |
-|   3   | [rubik-s-cube](https://github.com/GariNikhil/rubik-s-cube) | —                           |   Python   |  ⭐ 0  |
-|   4   | [PortfolioX](https://github.com/GariNikhil/PortfolioX)     | —                           |   Python   |  ⭐ 0  |
+| # | Repository | Description | Language | Stars |
+|:--:|:---|:---|:---:|:--:|
+| 1 | [Rubik-s-Cube](https://github.com/GariNikhil/Rubik-s-Cube) | An offline-first, interactive Rubik’s Cube learning and solving platform featur… | C# | ⭐ 1 |
+| 2 | [PortfolioX](https://github.com/GariNikhil/PortfolioX) | A modern, responsive personal portfolio platform showcasing projects, skills, e… | Python | ⭐ 1 |
+| 3 | [TRANSSKIN](https://github.com/GariNikhil/TRANSSKIN) | A customizable Rainmeter desktop skin collection featuring real-time system mon… | Python | ⭐ 1 |
+| 4 | [Chatbot](https://github.com/GariNikhil/Chatbot) | An interactive AI-powered chatbot application designed to enable natural conver… | JavaScript | ⭐ 1 |
 
 <!-- PROJECTS_END -->
 
@@ -71,11 +71,9 @@
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.shion.dev/api?username=GariNikhil&theme=dark&hide_border=true&include_all_commits=false&count_private=false&show_icons=true" alt="GitHub Stats" />
-
-<img width="49%" src="https://streak-stats.demolab.com/?user=GariNikhil&theme=dark&hide_border=true" alt="GitHub Streak" />
-
-<img width="49%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=GariNikhil&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
+<img width="32%" src="https://github-readme-stats.shion.dev/api?username=GariNikhil&theme=dark&hide_border=true&include_all_commits=false&count_private=false&show_icons=true" alt="GitHub Stats" />
+<img width="32%" src="https://streak-stats.demolab.com/?user=GariNikhil&theme=dark&hide_border=true" alt="GitHub Streak" />
+<img width="32%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=GariNikhil&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" />
 
 </div>
 
@@ -85,7 +83,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=GariNikhil&theme=darkhub&no-frame=true&no-bg=true&margin-w=8" alt="GitHub Trophies" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=GariNikhil&theme=github_dark" alt="GitHub Profile Summary" />
 
 </div>
 
@@ -106,7 +104,7 @@
 
 <div align="center">
 
-![GitHub Contribution Snake](https://raw.githubusercontent.com/GariNikhil/GariNikhil/output/github-contribution-grid-snake.svg)
+![GitHub Contribution Snake](https://raw.githubusercontent.com/GariNikhil/GariNikhil/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 

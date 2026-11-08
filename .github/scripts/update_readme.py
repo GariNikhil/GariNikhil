@@ -67,11 +67,14 @@ def select_top_repositories(repositories):
     return eligible[:5]
 
 
-def clean_markdown(value):
+def clean_markdown(value, limit=80):
     if not value:
         return "—"
 
-    return str(value).replace("|", "\\|").replace("\n", " ").replace("\r", " ")
+    text = str(value).replace("|", "\\|").replace("\n", " ").replace("\r", " ")
+    if len(text) > limit:
+        text = text[: limit - 1].rstrip() + "…"
+    return text
 
 
 def generate_table(repositories):
